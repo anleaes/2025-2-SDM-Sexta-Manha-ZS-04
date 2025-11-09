@@ -3,3 +3,5 @@ modeloapp/__pycache__/*
 /apps/cinemasmigrations/*
 /apps/salas/__pycache__/*
 /apps/salas/migrations/*
+/apps/filmes/__pycache__/*
+/apps/filmes/migrations/*
