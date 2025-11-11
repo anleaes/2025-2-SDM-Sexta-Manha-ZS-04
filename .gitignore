@@ -1,9 +1,11 @@
 modeloapp/__pycache__/*
 /apps/cinemas/__pycache__/*
-/apps/cinemasmigrations/*
+/apps/cinemas/migrations/*
 /apps/salas/__pycache__/*
 /apps/salas/migrations/*
 /apps/filmes/__pycache__/*
 /apps/filmes/migrations/*
 /apps/sessoes/__pycache__/*
 /apps/sessoes/migrations/*
+/apps/clientes/__pycache__/*
+/apps/clientes/migrations/*
