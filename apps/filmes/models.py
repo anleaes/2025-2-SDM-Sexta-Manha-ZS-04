@@ -14,4 +14,4 @@ class Filme(models.Model):
 
 
     def __str__(self):
-        return self.titulo
+        return f"{self.titulo} (Duração: {self.duracao})"

@@ -14,4 +14,4 @@ class Sala(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self.lotacao_maxima
+        return f"Sala {self.id} - {self.cinema.nome} (Capacidade: {self.lotacao_maxima})"

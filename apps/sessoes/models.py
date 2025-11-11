@@ -15,4 +15,4 @@ class Sessao(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self.horario_de_inicio
+        return f"{self.filme.titulo} - {self.tipo_de_exibicao} (Início: {self.horario_de_inicio})"
