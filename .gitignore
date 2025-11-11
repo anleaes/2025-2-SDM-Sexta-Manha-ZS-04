@@ -9,3 +9,5 @@ modeloapp/__pycache__/*
 /apps/sessoes/migrations/*
 /apps/clientes/__pycache__/*
 /apps/clientes/migrations/*
+/apps/avaliacoes/__pycache__/*
+/apps/avaliacoes/migrations/*
