@@ -1,5 +1,6 @@
 from django.db import models
 from cinemas.models import Cinema
+from django.core.exceptions import ValidationError
 
 # Create your models here.
 class Sala(models.Model):
