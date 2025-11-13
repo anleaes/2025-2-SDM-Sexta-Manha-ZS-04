@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 class Filme(models.Model):
     titulo = models.CharField('Título', max_length=50)
-    sinopse = models.TextField('Sinopse', max_length=100)
+    sinopse = models.TextField('Sinopse', max_length=400)
     genero = models.CharField('Gênero', max_length=50, default='acao', choices=[
         ('acao', 'Ação'),
         ('animacao', 'Animação'),
