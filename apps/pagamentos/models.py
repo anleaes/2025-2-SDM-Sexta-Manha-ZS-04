@@ -9,7 +9,7 @@ class Pagamento(models.Model):
         ('voucher', 'Voucher'),
     ]
     )
-    desconto = models.DecimalField('Desconto')
+    desconto = models.DecimalField('Desconto (%)', max_digits=5, decimal_places=2, default=0)
     ativo = models.BooleanField('Ativo')
  
     class Meta:
