@@ -24,5 +24,6 @@ urlpatterns = [
     path('filmes/', include('filmes.urls', namespace='filmes')),
     path('sessoes/', include('sessoes.urls', namespace='sessoes')),
     path('clientes/', include('clientes.urls', namespace='clientes')),
+    path('avaliacoes/', include('avaliacoes.urls', namespace='avaliacoes')),
 ]
 

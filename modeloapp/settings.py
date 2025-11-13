@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'filmes.apps.FilmesConfig',
     'sessoes.apps.SessoesConfig',
     'clientes.apps.ClientesConfig',
+    'avaliacoes.apps.AvaliacoesConfig',
 ]
 
 MIDDLEWARE = [
