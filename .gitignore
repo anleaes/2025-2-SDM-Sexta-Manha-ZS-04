@@ -11,3 +11,5 @@ modeloapp/__pycache__/*
 /apps/clientes/migrations/*
 /apps/avaliacoes/__pycache__/*
 /apps/avaliacoes/migrations/*
+/apps/pagamentos/__pycache__/*
+/apps/pagamentos/migrations/*
