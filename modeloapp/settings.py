@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'avaliacoes.apps.AvaliacoesConfig',
     'pagamentos.apps.PagamentosConfig',
     'ingressos.apps.IngressosConfig',
+    'generos.apps.GenerosConfig',
 ]
 
 MIDDLEWARE = [
