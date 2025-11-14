@@ -16,3 +16,10 @@ class Ingresso(models.Model):
     sessao = models.ForeignKey(Sessao, on_delete=models.CASCADE)
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)   
    
+    class Meta:
+        verbose_name = 'Ingresso'
+        verbose_name_plural = 'Ingressos'
+        ordering =['id']
+
+    def __str__(self):
+        return f"{self.tipo} - R${self.preco})"
