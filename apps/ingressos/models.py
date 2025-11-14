@@ -16,7 +16,8 @@ class Ingresso(models.Model):
     preco =  models.DecimalField('Preço', max_digits=5, decimal_places=2, default=0)
     sessao = models.ForeignKey(Sessao, on_delete=models.CASCADE)
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
-    pagamento = 
+    pagamento = models.ForeignKey(Pagamento, on_delete=models.CASCADE)   
+   
     class Meta:
         verbose_name = 'Ingresso'
         verbose_name_plural = 'Ingressos'
