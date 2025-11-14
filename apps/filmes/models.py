@@ -5,7 +5,7 @@ from generos.models import Genero
 class Filme(models.Model):
     titulo = models.CharField('Título', max_length=50)
     sinopse = models.TextField('Sinopse', max_length=400)
-    genero = models.ManyToManyField(Genero, on_delete=models.CASCADE)
+    genero = models.ManyToManyField(Genero)
     duracao = models.TimeField('Duração')
 
     class Meta:
