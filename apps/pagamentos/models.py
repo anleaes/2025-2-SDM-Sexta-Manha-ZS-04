@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 class Pagamento(models.Model):
     nome = models.CharField('Nome', max_length=50)
-    tipo = models.CharField('Tipo', max_length=50, default='À Vista', choices=[
+    tipo = models.CharField('Tipo', max_length=50, default='a_vista', choices=[
         ('a_vista', 'À Vista'),
         ('parcelado', 'Parcelado'),
         ('voucher', 'Voucher'),
@@ -18,4 +18,4 @@ class Pagamento(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return f"{self.nome} - {self.tipo})"
+        return f"{self.nome} - {self.get_tipo_display()}"
