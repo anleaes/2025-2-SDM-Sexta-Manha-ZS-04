@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'clientes.apps.ClientesConfig',
     'avaliacoes.apps.AvaliacoesConfig',
     'pagamentos.apps.PagamentosConfig',
+    'ingressos.apps.IngressosConfig',
 ]
 
 MIDDLEWARE = [
