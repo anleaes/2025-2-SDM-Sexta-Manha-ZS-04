@@ -1,23 +1,11 @@
 from django.db import models
+from generos.models import Genero
 
 # Create your models here.
 class Filme(models.Model):
     titulo = models.CharField('Título', max_length=50)
     sinopse = models.TextField('Sinopse', max_length=400)
-    genero = models.CharField('Gênero', max_length=50, default='acao', choices=[
-        ('acao', 'Ação'),
-        ('animacao', 'Animação'),
-        ('aventura', 'Aventura'),
-        ('comedia', 'Comédia'),
-        ('documentario', 'Documentário'),
-        ('drama', 'Drama'),
-        ('fantasia', 'Fantasia'),
-        ('ficcao', 'Ficção Científica'),
-        ('romance', 'Romance'),
-        ('suspense', 'Suspense'),
-        ('terror', 'Terror'),
-    ]
-)
+    genero = models.ManyToManyField(Genero)
     duracao = models.TimeField('Duração')
 
     class Meta:
