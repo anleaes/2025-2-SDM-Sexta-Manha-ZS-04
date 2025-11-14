@@ -1,3 +1,4 @@
+.env
 modeloapp/__pycache__/*
 /apps/cinemas/__pycache__/*
 /apps/cinemas/migrations/*
@@ -13,3 +14,5 @@ modeloapp/__pycache__/*
 /apps/avaliacoes/migrations/*
 /apps/pagamentos/__pycache__/*
 /apps/pagamentos/migrations/*
+/apps/ingressos/__pycache__/*
+/apps/ingressos/migrations/*
