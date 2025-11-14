@@ -16,3 +16,5 @@ modeloapp/__pycache__/*
 /apps/pagamentos/migrations/*
 /apps/ingressos/__pycache__/*
 /apps/ingressos/migrations/*
+/apps/generos/__pycache__/*
+/apps/generos/migrations/*
