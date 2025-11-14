@@ -1,5 +1,5 @@
 from django.db import models
-from .models import Genero
+from generos.models import Genero
 
 # Create your models here.
 class Filme(models.Model):
